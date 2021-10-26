@@ -51,3 +51,18 @@
     background-color: #55b99d;
     color: white;
 }
+
+
+
+.layover_plus{
+    width: 95%;
+    height: 100%;
+    color: white;
+    font-size: 5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+}
+
+#portfolio img:hover + .layover_plus{
+   visibility: visible;
+}
