@@ -37,3 +37,17 @@
     background-color: #2f3e4e;
     font-size: 0.5rem;
 }
+
+.p_special{
+    padding-top: .5rem;
+    padding-bottom: 8rem;
+}
+
+.border_light{
+    border-color: lightgray;
+}
+
+.btn_back{
+    background-color: #55b99d;
+    color: white;
+}
