@@ -1,5 +1,5 @@
 .bg_nav-footer{
-    background-color: #2f3e4e;
+    background-color: #3f546b;
 }
 
 .bg_jumbo-about{
@@ -31,4 +31,9 @@
     background-color: black;
     height: 3px;
     border-radius: 1rem;
+}
+
+.end_footer{
+    background-color: #2f3e4e;
+    font-size: 0.5rem;
 }
