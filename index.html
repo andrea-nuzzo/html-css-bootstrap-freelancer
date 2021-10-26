@@ -12,6 +12,7 @@
 <body>
     <!-- start header -->
     <header>
+        <!-- start navbar -->
         <nav class="navbar navbar-expand-md navbar-dark bg_nav-footer">
             <div class="container-fluid text-uppercase">
               <a class="navbar-brand" href="#">start bootstrap</a>
@@ -32,60 +33,116 @@
               </div>
             </div>
         </nav>
+        <!-- end navbar -->
 
-        <div class="container-fluid text-white">
-            <div class="row bg_jumbo-about">
+        <!-- start jumbotron -->
+        <div class="container-fluid text-white bg_jumbo-about mb-4">
+            <div class="row py-3">
                 <div class="col-12 text-center">
                     <img src="img/avatar.svg" class="img-fluid" id="avatar" alt="avatar">
                 </div>
-                <div class="col-12 text-center"><h1 class="text-uppercase">start bootstrap</h1></div>
-                <div class="col-12 text-center">______ <i class="bi bi-star-fill"></i> ______</div>
-                <div class="col-12 text-center text-uppercase">graphic artist - web designer - illustrator</div>
             </div>
+
+            <div class="row text-white justify-content-center">
+                <div class="col-12 text-center"><h2 class="text-uppercase">start bootstrap</h2></div>
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                    <div class="line-light me-2"></div>
+                    <i class="bi bi-star-fill"></i>
+                    <div class="line-light ms-2"></div>
+                </div>
+                <div class="col-12 text-center text-uppercase mb-3">graphic artist - web designer - illustrator</div>
+            </div>   
         </div>
+        <!-- end jumbotron -->
     </header>
     <!-- end header -->
 
     <!-- start main -->
     <main>
         <!-- start portfolio section -->
-        <div class="container">
-            <div class="row border border-dark" id="portfolio">
+        <div class="container mb-4">
+            <div class="row justify-content-center mb-3" id="portfolio">
                 <div class="col-12 text-center"><h2 class="text-uppercase">portfolio</h2></div>
-                <div class="col-12 text-center">______ <i class="bi bi-star-fill"></i> ______</div>
-                <div class="col-sm-12 col-md-6 col-lg-4 border border-danger">image</div>
-                <div class="col-sm-12 col-md-6 col-lg-4 border border-danger">image</div>
-                <div class="col-sm-12 col-md-6 col-lg-4 border border-danger">image</div>
-                <div class="col-sm-12 col-md-6 col-lg-4 border border-danger">image</div>
-                <div class="col-sm-12 col-md-6 col-lg-4 border border-danger">image</div>
-                <div class="col-sm-12 col-md-6 col-lg-4 border border-danger">image</div>
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                    <div class="line-dark me-2"></div>
+                    <i class="bi bi-star-fill"></i>
+                    <div class="line-dark ms-2"></div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3" id="portfolio">
+                <div class="col">
+                    <img src="img/cabin.png" class="rounded mx-auto d-block" alt="">                    
+                </div>
+                <div class="col">
+                    <img src="img/cake.png" class="rounded mx-auto d-block" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/circus.png" class="rounded mx-auto d-block" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/game.png" class="rounded mx-auto d-block" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/safe.png" class="rounded mx-auto d-block" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/submarine.png" class="rounded mx-auto d-block" alt="">
+                </div>
             </div>
         </div>
         <!-- end portfolio section -->
 
         <!-- start about section -->
-        <div class="container-fluid">
-            <div class="row border border-dark" id="about">
-                <div class="col-12 text-center"><h2 class="text-uppercase">about</h2></div>
-                <div class="col-12 text-center">______ <i class="bi bi-star-fill"></i> ______</div>
-                <div class="col-sm-12 col-md-6 text-center">Lorem</div>
-                <div class="col-sm-12 col-md-6 text-center">Lorem</div>
-                <div class="col-12  text-center text-capitalize">download</div>
+        <div class="container-fluid mb-4 bg_jumbo-about">
+            <div class="row text-white justify-content-center align-items-center" id="about">
+                <div class="col-12 text-center mt-3"><h2 class="text-uppercase">about</h2></div>
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                    <div class="line-light me-2"></div>
+                    <i class="bi bi-star-fill"></i>
+                    <div class="line-light ms-2"></div>
+                </div>
             </div>
+            <div class="row text-white g-3 my-3">
+                <div class="offset-1 col-10 offset-md-1 col-md-5">
+                    Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+                </div>
+                <div class=" offset-1 col-10 col-md-5 offset-md-0">
+                    Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col m-3">
+                    <button type="button" class="btn btn-outline-light"><i class="bi bi-download"> Download</i></button>
+                </div>
+            </div>
+                
+            
         </div>
         <!-- end about section -->
 
         <!--  start contact section -->
-        <div class="container">
-            <div class="row border border-dark" id="contact_me">
+        <div class="container mb-5">
+            <div class="row justify-content-center mb-3" id="contact_me">
                 <div class="col-12 text-center"><h2 class="text-uppercase">contact me</h2></div>
-                <div class="col-12 text-center">______ <i class="bi bi-star-fill"></i> ______</div>
-                <div class="col-12 text-capitalize">name</div>
-                <div class="col-12 text-capitalize">email address</div>
-                <div class="col-12 text-capitalize">phone number</div>
-                <div class="col-12 text-capitalize">message</div>
-                <div class="col-12 text-capitalize">send</div>
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                    <div class="line-dark me-2"></div>
+                    <i class="bi bi-star-fill"></i>
+                    <div class="line-dark ms-2"></div>
+                </div>
             </div>
+            <div class="row justify-content-center" >
+                <div class="col-11 text-capitalize py-2 border-bottom border-secondary">name</div>
+            </div>
+            <div class="row justify-content-center " >
+                <div class="col-11 text-capitalize py-2 border-bottom border-secondary">email address</div>
+            </div>
+            <div class="row justify-content-center " >
+                <div class="col-11 text-capitalize py-2 border-bottom border-secondary">phone number</div>
+            </div>
+            <div class="row justify-content-center " >
+                <div class="col-11 text-capitalize pb-6 border-bottom border-secondary">message</div>
+            </div>
+            <button type="button" class="btn btn-outline-dark"><i class="bi bi-download"> Download</i></button>
         </div>
         <!-- end contact section -->
     </main>
@@ -94,15 +151,36 @@
     <!-- start footer -->
     <footer class="text-white bg_nav-footer">
         <div class="container-fluid ">
-            <div class="row text-center">
-                <div class="col-sm-12 col-md-4 col border border-danger text-uppercase">location</div>
-                <div class="col-sm-12 col-md-4 border border-danger text-uppercase">around the web</div>
-                <div class="col-sm-12 col-md-4 border border-danger text-uppercase">about freelancer</div>
+            <div class="row align-items-center text-center">
+                <div class="col-sm-12 col-md-4">
+                    <div class="row my-3">
+                        <div class="col-12 text-uppercase">location</div>
+                        <div class="col-12">2215 John daniel Drive Clark, MO 54243</div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="row text-center my-3">
+                        <div class="col-12 text-uppercase mb-3">around the web</div>
+                        <div class="col-12">
+                            <i class="bi bi-facebook border rounded-circle p-2"></i>
+                            <i class="bi bi-google border rounded-circle p-2"></i>
+                            <i class="bi bi-twitter border rounded-circle p-2"></i>
+                            <i class="bi bi-linkedin border rounded-circle p-2"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="row my-3">
+                        <div class="col-12 text-uppercase">about freelancer</div>
+                        <div class="col-12">Freelancer is a free to use, open source Bootstrap theme created by <span class="col_text" >Start Bootstrap</span>.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="container-fluid text-white">
             <div class="row text-center">
-                <div class="col border border-danger text-uppercase">Copyright</div>
+                <div class="col border border-danger fs-6 ">Copyright © Your Website 2019</div>
             </div>
         </div>
     </footer>

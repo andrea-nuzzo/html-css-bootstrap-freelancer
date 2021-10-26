@@ -5,7 +5,30 @@
 .bg_jumbo-about{
     background-color: #55b99d;
 }
+.col_text{
+    color: #55b99d;
+}
 
 #avatar{
-    width: 100px;
+    width: 200px;
+}
+
+#portfolio img{
+    width: 100%;
+}
+
+.line-light{
+    width: 100%;
+    max-width: 100px;
+    background-color: white;
+    height: 3px;
+    border-radius: 1rem;
+}
+
+.line-dark{
+    width: 100%;
+    max-width: 100px;
+    background-color: black;
+    height: 3px;
+    border-radius: 1rem;
 }
